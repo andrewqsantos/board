@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/link-passhref */
 /* eslint-disable react/jsx-key */
 import { useState, FormEvent } from 'react';
 import Head from 'next/head';
