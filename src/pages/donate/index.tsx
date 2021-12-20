@@ -8,9 +8,9 @@ import firebase from '../../services/firebaseConnection';
 
 import {PayPalButtons} from '@paypal/react-paypal-js';
 
-/// CLIENT ID = ATZ0YGHa7GEpnPuYrxTyLU1DioUTU_yxZ2wifzuvWbSGbNz1PI4qPhqqHMmRqjMy5wSGgoziWXYWZ7p5
-/// <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID"></script>
 
+import Image from 'next/image';
+import rocketImg from '../../../public/images/rocket.svg';
 
 interface DonateProps{
     user:{
@@ -43,11 +43,11 @@ export default function Donate({user}: DonateProps){
                 <title>Ajude a plataforma board ficar online!</title>
             </Head>
             <main className={styles.container}>
-                <img src="/images/rocket.svg" alt="Seja Apoiador" />
+                <Image src={rocketImg} alt="Seja Apoiador" />
 
                 {vip && (
                     <div className={styles.vip}>
-                        <img src={user.image} alt="Foto de perfil do usuario" />
+                        <Image width={50} height={50} src={user.image} alt="Foto de perfil do usuario" />
                         <span>Parabéns você é um novo apoiador!</span>
                     </div>
                 )}
