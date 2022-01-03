@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+     <img src="public/images/logo.svg">
+</h1>
 
-## Getting Started
+<p align="center">🎬 Meu Board, To-Do List para Programadores.</p>
 
-First, run the development server:
+<h1>
+    <img src="public/images/apresentacao.png">
+</h1>
+
+<h3 align="center">
+    <a href="https://board-green.vercel.app/">Acessar a demonstração</a>
+</h3>
+
+# Indice
+
+- [Sobre](#-sobre)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
+
+## 🔖&nbsp; Sobre
+
+O projeto **Meu Board** é um To-Do List que foi criado dentro do curso de [NextJS](https://www.udemy.com/course/nextjs-zero-ao-avancado/) com o intuito de colocarmos em prática todo conteúdo estudado durante o curso.
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+
+- [NextJS](https://nextjs.org/)
+- [Firebase](https://firebase.google.com/)
+---
+
+## 🗂 Como baixar o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+    # Clonar o repositório
+    $ git clone https://github.com/andrewqsantos/board
+
+    # Entrar no diretório
+    $ cd board
+
+    # Instalar as dependências
+    $ yarn install
+
+    # Iniciar o projeto
+    $ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Desenvolvido 💜 por Andrew Quenehen dos Santos
